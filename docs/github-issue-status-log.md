@@ -19,7 +19,7 @@
 | #11 | 已完成 | Closed | [B0–B4 原生 Task 验收](issue-11-native-task-validation.md)、[`results/expB/`](../results/expB/) | 结论限 V0.6 用工策略实验口径 |
 | #12 | 已完成 | Closed | [SA103 闭环记录](issue-12-closure-20261027.md)、[`results/expC/`](../results/expC/) | 32 个场景、160 次预验收重复和 D1 非对称负荷测试已有结果；候选模型哈希边界已注明 |
 | #13 | 已完成 | Closed | [班次/人工成本验收](issue-13-validation-20261027.md)、[`results/expD/`](../results/expD/) | 20 个场景、200 次重复；成本响应与原生 Reports 已核对 |
-| #14 | 部分完成 | Open | [WIP Dashboard 验证](issue-14-wip-dashboard-validation-20261028.md)、[V0.9 模型](../models/AIT_V0.9_Issue14_DashboardCandidate.spfx) | Edit 模式字段错误未修复；未形成 `AIT_V1.0_Final.spfx` 和最终交接包 |
+| #14 | 部分完成 | Open | [WIP Dashboard 验证](issue-14-wip-dashboard-validation-20261028.md)、[V1.0 候选快照](../models/AIT_V1.0_Final.spfx) | `AIT_V1.0_Final.spfx` 已保存并登记；仍需关闭、重载、Dashboard/Experiment 核验和最终交接包复核 |
 
 ## 可查询方式
 

@@ -5,7 +5,7 @@
 ## [Unreleased]
 
 - GitHub Issue 状态和验证证据索引已整理；新增仓库模板、离线一致性检查与发布规程后，将在对应 Pull Request 合并时更新本节。
-- 当前没有 `AIT_V1.0_Final.spfx`。
+- 已保存 `AIT_V1.0_Final.spfx` 正式候选快照并登记 SHA-256；关闭、重载和最终 Release 复核仍待完成。
 
 ## [V0.9] - 2026-10-28
 
