@@ -1,6 +1,6 @@
 # GitHub Project 看板配置
 
-仓库 Issue、Milestone 和 Pull Request 流程已经建立。Project V2 看板现已创建：[Simio Aerospace Delivery](https://github.com/users/wyfchina/projects/3)。
+仓库 Issue、Milestone、Pull Request 和 Project V2 流程已经建立。当前看板为 [Simio Aerospace Delivery](https://github.com/users/wyfchina/projects/3)，使用中文交付状态列。
 
 ## 当前配置
 

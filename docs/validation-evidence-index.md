@@ -14,6 +14,7 @@
 | SA103 与分流 | `docs/issue-12-closure-20261027.md`、`results/expC/` | 32 场景、160 次、45/30/25、D1/D2 | 候选包清理后的保存边界需重核 |
 | 班次与成本 | `docs/issue-13-validation-20261027.md` | 20 场景、200 次、Reports 与响应、成本复算 | 删除静态汇总表后的最终包需重载 |
 | WIP Dashboard | `docs/issue-14-wip-dashboard-validation-20261028.md`、`results/issue14_wip_daily_A1_A3.csv` | 24 小时 TimePeriod、A1/A3、日均 WIP、有效重复数 | Edit 模式仍报告内部字段 Invalid column |
+| V1.0 交接与复核 | `docs/handover.md`、`docs/final-review-20261029.md`、`models/AIT_V1.0_Final.spfx` | 快照哈希、活动模型诊断、实验状态和交付边界 | 关闭/重载、Trace 截图、Dashboard Edit 定义和最终 Release 仍待完成 |
 | 确定性 Trace | `docs/validation_V0.3.md`、`validation/` 下 V1/V2/V4 文件 | V1–V7 记录和原始 Trace CSV | #8 仍缺界面截图；超大 Trace 不建议直接放普通 Git |
 
 ## 不应直接发布的文件
