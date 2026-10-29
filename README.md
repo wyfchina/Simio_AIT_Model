@@ -11,6 +11,9 @@ Git 提交历史是 2026-10-29 根据本地材料重建的里程碑历史，不�
 - [`AIT_issues/issues/`](AIT_issues/issues/)：Issue #1–#14 的目标、条件、设计和验收标准
 - [`docs/assumptions.md`](docs/assumptions.md)：统一建模假设 A1–A13
 - [`docs/collaboration-retrospective.md`](docs/collaboration-retrospective.md)：中文协作与验证复盘
+- [`docs/github-delivery-process.md`](docs/github-delivery-process.md)：Issue、PR、模型版本和发布流程
+- [`docs/github-project-setup.md`](docs/github-project-setup.md)：Project V2 看板权限缺口与配置说明
+- [`CHANGELOG.md`](CHANGELOG.md)：阶段模型与验证变更记录
 - [`docs/reconstruction-method.md`](docs/reconstruction-method.md)：Git 里程碑历史的重建原则和来源映射
 - [`docs/github-issue-status-log.md`](docs/github-issue-status-log.md)：GitHub Issue 状态、关闭依据和未闭环项
 - [`docs/model-version-map.csv`](docs/model-version-map.csv)：模型快照与结果目录的版本映射
