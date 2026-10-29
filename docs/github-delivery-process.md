@@ -21,7 +21,7 @@
 2. 保存模型后关闭并重新打开交付文件，核对模型名称、文件哈希、属性、Experiment 和结果边界。
 3. 更新 `docs/model-version-map.csv`、`models/README.md`、`docs/validation-evidence-index.md` 和 `CHANGELOG.md`。
 4. 为已复核快照创建有注释的版本标签，例如 `v1.0.0`，并在 GitHub Release 中附上模型、校验和、验证报告及已知限制。
-5. 只有通过冻结检查的文件才能命名为 `AIT_V1.0_Final.spfx`。当前仓库没有该最终快照。
+5. 只有通过冻结检查的文件才能发布为最终交付。`AIT_V1.0_Final.spfx` 已保存并上传为候选交付快照；当前仍需完成 `docs/final-review-20261029.md` 中列出的剩余证据后，才能创建 `v1.0.0` Release。
 
 ## GitHub 管理配置
 

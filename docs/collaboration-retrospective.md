@@ -53,7 +53,7 @@ CT、Makespan、WIP、FlowTime、守恒、Worker 计划利用率、逾期工单�
 | #11 | B0–B4 原生 Task 用工策略 | A1/A4/BASE 的策略切换、同时取人、释放和守恒有矩阵证据；A4 的 B2 接近全池上界 | 结论绑定 V0.6 用工配置；历史 `issue-11-native-policy-acceptance` 中的未完成结论属于早期阶段 |
 | #12 | SA103、单线/双线和 D1/D2 分流 | 32 个场景、160 次预验收重复；100 架均为 45/30/25，守恒为 0，D1 非对称负荷烟测通过 | 清理调试场景后的正式磁盘包需以保存/重载后的哈希再确认 |
 | #13 | 班次、人工成本和 Shift Dashboard | `Exp_D_Shift` 20 个场景 × 10 次，共 200 次；原生 Reports 与响应一致，成本独立复算一致 | 删除静态汇总表和 Dashboard 绑定后需要再次保存并重载；不把旧静态表当成输出源 |
-| #14 | 报告、Dashboard 和交接 | WIP 日周期、Makespan、状态、CT–付薪人时和 SA103 展示方案已设计，WIP 实验有 10 次重复 | WIP Dashboard 在运行视图可显示，但 Edit 模式报告 `DataSource`、`DataItem`、`StatisticType` 等 Invalid column；没有 `AIT_V1.0_Final.spfx` |
+| #14 | 报告、Dashboard 和交接 | WIP 日周期、Makespan、状态、CT–付薪人时和 SA103 展示方案已设计，WIP 实验有 10 次重复，已形成 V1.0 候选快照 | WIP Dashboard 在运行视图可显示，但 Edit 模式报告 `DataSource`、`DataItem`、`StatisticType` 等 Invalid column；关闭/重载、Trace 截图和最终 Release 仍待完成 |
 
 ## 4. 版本和结果边界
 
