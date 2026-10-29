@@ -1,0 +1,10 @@
+ModelVersion,SnapshotFile,PrimaryExperiment,ResultPath,Scope,Status,Boundary
+Initial,Aerospace.spfx,None,None,初始模型与早期原型,历史基线,不用于后续性能比较
+V0.2,AIT_V0.2_Skeleton.spfx,Issue5_Validation,早期 Issue5 记录,公共骨架与配额,历史证据,以 Issue5 文档中的保存哈希为准
+V0.3,AIT_V0.3_FlowLine.spfx,Issue7_FlowValidation,docs/issue-6-validation.md;docs/issue-7-validation.md,Flow 线与容量/缓冲,验证阶段,需以最终包重载确认图形和参数
+V0.4,AIT_V0.4_Validated.spfx,None,docs/validation_V0.3.md;validation,确定性 V1-V7,验证阶段,Trace 界面截图仍缺
+V0.5,AIT_V0.5_PulseLine_QuotaInitFix.spfx,Issue9_PulseBaseline;Exp_A_Buffer,docs/issue-9-validation.md;results/expA,脉动基准与 A1-A5 旧阶段,可引用但仅限 V0.5,BASE 约 346 天
+V0.6,AIT_V0.6_Issue11_Closed.spfx;AIT_V0.6_LaborFlex_C1PolicyPilot.spfx,Exp_B_Labor,results/expB;docs/issue-11-native-task-validation.md,Task 用工 B0-B4,可引用但需注明实际活动配置,BASE 约 316.34 天
+V0.7,AIT_V0.7_Issue12_Candidate.spfx,Exp_C_SA103,results/expC;docs/issue-12-closure-20261027.md,SA103 与单线/双线分流,候选包,清理后磁盘哈希需重核
+V0.8,AIT_V0.8_Shift_Candidate.spfx,Exp_D_Shift,docs/issue-13-validation-20261027.md,班次和人工成本,候选/活动验证,删除静态输出表后需保存重载
+V0.9,AIT_V0.9_Issue14_DashboardCandidate.spfx,Issue14_WIP_TimeSeries,results/issue14_wip_daily_A1_A3.csv;docs/issue-14-wip-dashboard-validation-20261028.md,Dashboard 与 WIP 时间序列,候选验证,Edit 模式字段错误且无 V1.0 Final
