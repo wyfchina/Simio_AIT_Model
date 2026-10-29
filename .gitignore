@@ -1,0 +1,18 @@
+# Simio binary snapshots and backups: publish through Git LFS or a separate delivery archive.
+*.spfx
+*.backup
+*.spfx.zip
+
+# Large runtime traces and raw MCP pages.
+*_trace.csv
+*trace*.csv
+validation/*raw*.json
+validation/*inspect*.json
+validation/*install*.json
+
+# Local/editor/runtime artifacts.
+.vs/
+bin/
+obj/
+*.tmp
+*.log

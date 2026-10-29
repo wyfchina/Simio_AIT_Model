@@ -1,0 +1,16 @@
+[
+{"file":"01.md","title":"[总览] Simio Aerospace 总装线仿真：路线图与任务清单","label":"总览"},
+{"file":"02.md","title":"[设计] 建模假设与口径 v1（Assumptions List）","label":"设计"},
+{"file":"03.md","title":"[数据] 统一工序表 Tbl_Tasks（5 工位 83 道工序同表）与关联表","label":"数据"},
+{"file":"04.md","title":"[Spike] 单表驱动 Task Sequence 机制验证：按工位过滤、人数取列、下班暂停","label":"spike"},
+{"file":"05.md","title":"[建模] 公共骨架：飞机实体、产品组合投放、机械师资源与班次日程","label":"建模"},
+{"file":"06.md","title":"[建模] 完工驱动线：5 工位 Task Sequence + 缓冲/容量参数化","label":"建模"},
+{"file":"07.md","title":"[建模] 指标统计框架：CT、完工时间、WIP、利用率、阻塞/饥饿","label":"建模"},
+{"file":"08.md","title":"[验证] 确定性验证与守恒检查（V1–V7）","label":"验证"},
+{"file":"09.md","title":"[建模] 基准线：4 天硬脉动 + traveled work（位置与作业解耦）","label":"建模"},
+{"file":"10.md","title":"[实验A] 缓冲与容量四情形 vs 脉动基准","label":"实验"},
+{"file":"11.md","title":"[实验B] 人力灵活性：专属 / 40人全池上界 / 实际方案","label":"实验"},
+{"file":"12.md","title":"[实验C] SA103：100 架单线 vs 双线可行性","label":"实验"},
+{"file":"13.md","title":"[实验D] 第三班与周末加班：节拍与成本权衡","label":"实验"},
+{"file":"14.md","title":"[报告] 结果解释、案例报告与模型交接说明","label":"报告"}
+]
