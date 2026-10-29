@@ -44,7 +44,7 @@ CT、Makespan、WIP、FlowTime、守恒、Worker 计划利用率、逾期工单�
 | #2 | 假设与口径 | A1–A13 已写入 `docs/assumptions.md` | 原始案例 PDF/工作簿不在本项目目录，来源复核依赖已有解析记录 |
 | #3 | 任务、工位、关联表 | `Tbl_Tasks`、`Tbl_Cells`、`Tbl_Stations` 结构和任务数据已用于正式模型 | 早期检查发现 `Tbl_Stations` Description 缺失，后续是否在最终包中完全补齐要以包内回读为准 |
 | #4 | Task Sequence 原型 | 形成了 Task Sequence、并行 Seq、人数和日程的设计基础 | 原始原型文档明确记载 S1–S4 未独立完成；不要把原型记录当成正式模型证明 |
-| #5 | 公共骨架、配额、Worker、日程、Flow 分流 | 型号配额、10 个 Worker 群体、日程、`TN_Release` 和 Flow 路由均有原生运行记录 | 正式包保存/关闭/重载边界和部分中文 Description 需按最终快照复核 |
+| #5 | 公共骨架、配额、Worker、日程、Flow 分流 | Issue #5 的配置、配额实验和保存重载复核均有记录，按 Issue 范围关闭 | 本次发布的 V0.2/V0.3 文件哈希与历史正式包记录不一致；文件身份差异单独列在 `models/README.md`，不改变 Issue 完成记录 |
 | #6 | 完工驱动线、容量/缓冲、状态图形 | 10 个工位、Task Sequence、容量/缓冲参数化；Flow 四组合 120 次重复通过，诊断 0 errors | 屏幕布局目视证据和最后一次保存后重载证据需单独保留 |
 | #7 | 统计框架 | CT、FlowTime、WIP、Makespan、资源利用率和守恒响应已扩展到 Experiment | WIP Dashboard 的运行展示曾成功，但 Edit 模式字段解析错误；不要把编辑器红叉写成已修复 |
 | #8 | 确定性 V1–V7 | 解析值、单架运行、并行 Seq、日程、守恒和型号配额均有记录 | `docs/validation_V0.3.md` 和 `validation/` 中有 Trace CSV，但 Trace 界面截图尚缺；这是界面证据缺口，不等同于逻辑未运行 |

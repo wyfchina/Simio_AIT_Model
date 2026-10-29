@@ -12,6 +12,7 @@ Git 提交历史是 2026-10-29 根据本地材料重建的里程碑历史，不�
 - [`docs/assumptions.md`](docs/assumptions.md)：统一建模假设 A1–A13
 - [`docs/collaboration-retrospective.md`](docs/collaboration-retrospective.md)：中文协作与验证复盘
 - [`docs/reconstruction-method.md`](docs/reconstruction-method.md)：Git 里程碑历史的重建原则和来源映射
+- [`docs/github-issue-status-log.md`](docs/github-issue-status-log.md)：GitHub Issue 状态、关闭依据和未闭环项
 - [`docs/model-version-map.csv`](docs/model-version-map.csv)：模型快照与结果目录的版本映射
 - [`docs/validation-evidence-index.md`](docs/validation-evidence-index.md)：验证证据索引及边界
 - [`data/`](data/)：任务表和关联数据
