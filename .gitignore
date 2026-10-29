@@ -2,6 +2,7 @@
 *.spfx
 *.backup
 *.spfx.zip
+!/models/*.spfx
 
 # Large runtime traces and raw MCP pages.
 *_trace.csv

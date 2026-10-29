@@ -15,10 +15,11 @@ Git 提交历史是 2026-10-29 根据本地材料重建的里程碑历史，不�
 - [`docs/model-version-map.csv`](docs/model-version-map.csv)：模型快照与结果目录的版本映射
 - [`docs/validation-evidence-index.md`](docs/validation-evidence-index.md)：验证证据索引及边界
 - [`data/`](data/)：任务表和关联数据
+- [`models/`](models/)：使用 Git LFS 管理的阶段性 `.spfx` 快照及 SHA-256 校验说明
 - [`results/`](results/)：按模型阶段整理的实验汇总、逐重复数据和图表
 
 ## 结果使用规则
 
 引用任何 CSV、图表或响应摘要时，同时写明实验名称、模型快照、控制口径和验证文档。当前没有 `AIT_V1.0_Final.spfx`；因此不能把仓库资料描述为一个已经完成最终冻结的单一交付包。
 
-普通 Git 历史不直接收录 `.spfx`、`.backup`、超大 Trace 和完整 MCP 原始 JSON。模型快照应通过 Git LFS 或独立交付包管理，验证文档和小型摘要文件保留在普通 Git 中。
+`.spfx` 模型快照通过 Git LFS 管理；`.backup`、超大 Trace 和完整 MCP 原始 JSON 不在本次发布范围内。上传的当前本地快照与历史验证包哈希不一致之处列在 [`models/README.md`](models/README.md)，不能默认当作历史验收包的精确副本。
